@@ -16,10 +16,10 @@ int main(){
 	cout<<"\t___________________________________________________\n";
 	cout<<"\t|   Kode Kelas   |    Kelas     |     Harga        |\n";
 	cout<<"\t|________________|______________|__________________|\n";
-	cout<<"\t|       1        |  VVIP        | Rp. 1.000.000    |\n";
-	cout<<"\t|       2        |  VIP         | Rp. 750.000      |\n";
-	cout<<"\t|       3        |  PREMIUM     | Rp. 500.000      |\n";
-	cout<<"\t|       4        |  BIASA       | Rp. 250.000      |\n";
+	cout<<"\t|       1        |  VVIP        | Rp. 3.000.000    |\n";
+	cout<<"\t|       2        |  VIP         | Rp. 2.500.000    |\n";
+	cout<<"\t|       3        |  PREMIUM     | Rp. 2.000.000    |\n";
+	cout<<"\t|       4        |  BIASA       | Rp. 1.500.000    |\n";
 	cout<<"\t|________________|______________|__________________|\n";
 	cout<<"\n";
 	cout<<"\n\tMasukan Nama Pembeli : ";
@@ -36,16 +36,16 @@ int main(){
 		cin>>kode[i];
 		if(kode[i]==1){
 			strcpy(kls[i],"VVIP");
-			harga[i]=1000000;
+			harga[i]=3000000;
 		}else if(kode[i]==2){
 			strcpy(kls[i],"VIP");
-			harga[i]=750000;
+			harga[i]=2500000;
 		}else if(kode[i]==3){
 			strcpy(kls[i],"PREMIUM");
-			harga[i]=500000;
+			harga[i]=2000000;
 		}else if(kode[i]=4){
 			strcpy(kls[i],"BIASA");
-			harga[i]=250000;
+			harga[i]=1500000;
 		}else{
 			cout<<"\n\t\t\t\tKODE KELAS SALAH !!\n";
 			goto kode;
